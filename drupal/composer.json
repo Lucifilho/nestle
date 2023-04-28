@@ -19,7 +19,8 @@
         "drupal/core-composer-scaffold": "^10.0",
         "drupal/core-project-message": "^10.0",
         "drupal/core-recommended": "^10.0",
-        "drupal/entity_reference_tree": "^2.2"
+        "drupal/entity_reference_tree": "^2.2",
+        "drupal/twig_tweak": "^3.2"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -92,5 +93,8 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "drush/drush": "^11.5"
     }
 }

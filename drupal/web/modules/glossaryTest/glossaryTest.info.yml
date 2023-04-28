@@ -1,0 +1,9 @@
+name: Glossary Test
+type: module
+description: Adiciona descrições às palavras do glossário presentes nas páginas.
+package: Custom
+version: 1.0
+core_version_requirement: ^8 || ^10
+dependencies:
+  - drupal:block
+  - drupal:node

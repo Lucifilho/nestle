@@ -1,0 +1,16 @@
+<?php
+
+/**
+* Implements hook_theme().
+*/
+function glossaryTest($existing, $type, $theme, $path) {
+  
+  return [
+    'page' => [
+      'variables' => [
+          'view_name' => '',
+          'display_id' => '',
+        ],
+      ],
+    ];
+}

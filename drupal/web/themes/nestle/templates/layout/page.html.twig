@@ -51,7 +51,13 @@
   <main role="main">
 
     <div class="layout-content">
+
+      {{ dump() }}
+
       {{ page.content }}
+
+      {{ drupal_view('node', '1') }}
+
     </div>
 
   </main>
