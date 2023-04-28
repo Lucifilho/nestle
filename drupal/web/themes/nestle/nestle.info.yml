@@ -1,0 +1,15 @@
+name: Teste Nestle
+type: theme
+base theme: stable9
+description: "Tema teste para a Nestle"
+core_version_requirement: ^8 || ^10
+core: 8.x
+version: VERSION
+libraries:
+  - nestle/global-style
+regions:
+  header: header
+  content: content
+  footer: footer
+
+
